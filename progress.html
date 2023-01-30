@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>waste management</title>
+
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+       <!--CUSTOM BASIC STYLES-->
+    <link href="assets/css/basic.css" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="search.css">
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="index.html">Waste Management System</a>
+            </div>
+
+            <div class="header">
+
+                <h1 style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; text-align: center;">Progress</h1>
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                       
+
+                    </li>
+
+
+                    <li>
+                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                    </li>
+                    <li>
+                     <li>
+                     <a href="progress.html"><i class="fa fa-circle-o "></i>Progress</a>
+                </li>
+                    </li>
+                    
+                   
+                     <li>
+                       
+                         
+                    </li>
+                      <li>
+                        <a href="gallery.html"><i class="fa fa-anchor "></i>Gallery</a>
+                    </li>
+                     
+                    <li>
+                        <a href="login.html"><i class="fa fa-sign-in "></i>Login Page</a>
+                    </li>
+                    
+                   
+                    <li>
+                        <a href="blank.html"><i class="fa fa-square-o "></i>Blank Page</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="main-box mb-red">
+                                
+                                <div class="one" style="height: 200px; width: 200px; ">
+                                    <h1>Bin-id:332</h1>
+                                    <h1>Percentage filled</h1>
+                                    <div class="box1" style="width: 50px; height: 50px; padding: 12px 12px; margin-left: 90px; box-shadow:rgb(44, 62, 80) 0px 0px 15px 0px inset;">
+                                       <p id="fname"></p>
+                                    </div>
+                                    <!-- <input type="text" id="fname"> -->
+                                    <!-- <button id="displaydata">display</button> -->
+
+
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="main-box mb-dull">
+                            <div class="one" style="height: 200px; width: 200px; ">
+                                <h1>Bin-id:333</h1>
+                                <h1>Percentage filled</h1>
+                                    <div class="box1" style="width: 50px; height: 50px; padding: 12px 12px; margin-left: 90px; box-shadow: rgba(8, 213, 25, 0.17) 0px -23px 25px 0px inset, rgba(4, 23, 94, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;">70%</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="main-box mb-pink">
+                            <div class="one" style="height: 200px; width: 200px; ">
+                                <h1>Bin-id:333</h1>
+                                <h1>Percentage filled</h1>
+                                    <div class="box1" style="width: 50px; height: 50px; padding: 12px 12px; margin-left: 90px; box-shadow: rgba(240, 236, 45, 0.17) 0px -23px 25px 0px inset, rgba(4, 23, 94, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;">30%</div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h1>Enter Area/pincode here</h1>
+                <form class="example" action="#">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <br><br>
+                <!-- /. ROW  -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.4772828440673!2d76.9874785147366!3d11.077762092117467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f81b7514a15f%3A0x155e29f8d14154fc!2sKumaraguru%20College%20of%20Technology!5e0!3m2!1sen!2sin!4v1674800161924!5m2!1sen!2sin" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<script type="module">
+    var my=90;
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyAayhX3Nb7HMUWTYcbGeI3qlg-cDrutiFQ",
+        authDomain: "three-109fe.firebaseapp.com",
+        databaseURL: "https://three-109fe-default-rtdb.firebaseio.com",
+        projectId: "three-109fe",
+        storageBucket: "three-109fe.appspot.com",
+        messagingSenderId: "566140740799",
+        appId: "1:566140740799:web:9975be9f84227a446dd20a",
+        measurementId: "G-GLKJRR1YY3"
+    };
+
+    const app = initializeApp(firebaseConfig);
+
+    import {getDatabase, ref, get, set, child, update, remove} from "https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js";
+
+    const db=getDatabase();
+
+    var fname=document.getElementById("fname");
+
+    // var displaydata=document.getElementById("displaydata");
+
+    function displaydat()
+    {
+    const dbref = ref(db);
+    var dis;
+    var filled;
+    var per;
+    var myper;
+
+    get(child(dbref,"hello/"))
+    .then((snapshot)=>{
+        if(snapshot.exists())
+        {
+            dis=snapshot.val().Dist;
+            filled=11-dis;
+            per=filled*12.5;
+            myper=Math.trunc(per);
+            if(per<9)
+            {
+                document.getElementById("fname").innerHTML=0;
+            }
+            else if(per>80)
+            {
+                    Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "prabhuvnr2002@gmail.com",
+                    Password : "55256846FF03520EA10648344B225EED1A84",
+                    To : 'prabhuvnr2020@gmail.com,bhavaneesh1110@gmail.com,dharunbalajipalanivel@gmail.com,harisankaris2003@gmail.com,ragavan0987654321@gmail.com',
+                    From : "prabhuvnr2002@gmail.com",
+                    Subject : "Bin Overflow alert notification",
+                    Body :"BinId-332 overflowed"
+                }).then(
+                    message => colsole.log("alert sent")
+                    );
+            
+                
+                document.getElementById("fname").innerHTML=myper;
+
+
+            }
+           else{
+            document.getElementById("fname").innerHTML=myper;
+           }
+
+            
+        }
+        else{
+            alert("no data found");
+        }
+    })
+    // .catch((e)=>{
+    //     alert("unsuccessful");
+
+
+    // })
+   
+  }
+
+  setInterval(displaydat,10);
+//   displaydata.addEventListener('click',displaydat);
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
